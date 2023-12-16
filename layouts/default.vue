@@ -50,7 +50,9 @@ export default {
 </script>
 <style lang="less">
 .default {
+  @import (inline) 'ant-design-vue/dist/antd.css';
   @import (inline) '~/assets/styles/default-design.css';
+
   background: -webkit-gradient(
     linear,
     left top,
@@ -123,25 +125,7 @@ export default {
   .ant-table-thead > tr > th .ant-table-filter-icon > svg {
     margin-top: -10px;
   }
-  .ant-table-thead
-    > tr
-    > th:not(:last-child):not(.ant-table-selection-column):not(
-      .ant-table-row-expand-icon-cell
-    ):not([colspan])::before {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 1px;
-    height: 2.5em;
-    background-color: #0000000f;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s;
-    transition: background-color 0.3s;
-    content: '';
-  }
+
   .img-box-shadow {
     -webkit-box-shadow: 0 0 0 2px #fff, 1px 1px 5px rgb(0 0 0 / 32%);
     box-shadow: 0 0 0 2px #fff, 1px 1px 5px rgb(0 0 0 / 32%);
