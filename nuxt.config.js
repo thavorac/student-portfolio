@@ -19,7 +19,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    'ant-design-vue/dist/antd.css',
+    // 'ant-design-vue/dist/antd.css',
     '~/assets/styles/variables.css',
     // TODO: Ensure fonts showing great in both languages.
     '~/assets/styles/fonts/latin',
@@ -29,7 +29,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/antd-ui',
     '~plugins/axios.js',
     '~plugins/lodash.js',
     { src: '~/plugins/i18n.js', mode: 'client' },
