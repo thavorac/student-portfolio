@@ -1,0 +1,121 @@
+:root {
+  /* --primary-color: #005bea;
+  --link-color: #1890ff;
+  --success-color: #30b103;
+  --warning-color: #57534d;
+  --error-color: #cd3f2c;
+  --font-size-base: 14px;
+  --heading-color: rgba(69, 129, 207, 0.85);
+  --text-color: rgba(0, 0, 0, 0.65);
+  --text-color-secondary: rgba(0, 0, 0, 0.45);
+  --disabled-color: rgba(0, 0, 0, 0.25);
+  --border-radius-base: 4px;
+  --border-color-base: #d9d9d9;
+  --box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); */
+
+  /* Layout */
+
+  /* --layout-body-background: #fff;
+  --layout-header-background: linear-gradient(270deg, #0acffe 0, #495aff); */
+
+  /* Size */
+  --m-1: 1px;
+  --m-2: 2px;
+  --m-3: 3px;
+  --m-4: 0.2222222222222222rem;
+  --m-5: 0.3333333333333333rem;
+  --m-6: 0.4444444444444444rem;
+  --m-7: 0.5555555555555556rem;
+  --m-8: 0.6666666666666666rem;
+  --m-9: 0.8333333333333334rem;
+  --m-10: 1rem;
+  --m-11: 1.3333333333333333rem;
+  --m-12: 1.5555555555555556rem;
+  --m-13: 2.2222222222222223rem;
+  --m-14: 2.6666666666666665rem;
+  --m-15: 3.5555555555555554rem;
+  --m-16: 4.222222222222222rem;
+  --m-17: 5.555555555555555rem;
+  --m-18: 6.888888888888889rem;
+  --m-19: 9.333333333333334rem;
+  --m-20: 11.11111111111111rem;
+  --m-21: 15.11111111111111rem;
+  --m-22: 18rem;
+  --m-23: 24.22222222222222rem;
+  --m-24: 29.11111111111111rem;
+  --m-25: 39.111111111111114rem;
+  --m-26: 63.333333333333336rem;
+  --m-27: 102.44444444444444rem;
+  --m-28: 165.77777777777777rem;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./fonts/Nunito/NunitoSans.eot');
+  src: url('./fonts/Nunito/NunitoSans.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Nunito/NunitoSans.woff') format('woff'),
+    url('./fonts/Nunito/NunitoSans.ttf') format('truetype'),
+    url('./fonts/Nunito/NunitoSans.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaSoft';
+  src: url('./fonts/proxima/ProximaSoft-Regular.eot');
+  src: url('./fonts/proxima/ProximaSoft-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/proxima/ProximaSoft-Regular.woff') format('woff'),
+    url('./fonts/proxima/ProximaSoft-Regular.ttf') format('truetype'),
+    url('./fonts/proxima/ProximaSoft-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.multiselect__content-wrapper {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.multiselect__input,
+.multiselect__single {
+  margin-bottom: 0;
+}
+.multiselect--active .multiselect__input {
+  padding: 10px !important;
+}
+
+.multiselect__tags {
+  padding-bottom: 8px;
+}
+
+.multiselect--active .multiselect__tags {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+.multiselect .multiselect__content {
+  font-size: 15px;
+}
+
+.multiselect__placeholder {
+  margin-bottom: 0;
+}
+
+.multiselect__option {
+  white-space: normal;
+}

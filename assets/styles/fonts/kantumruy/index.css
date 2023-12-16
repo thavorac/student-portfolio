@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kantumruy Regular'), url('Kantumruy-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Kantumruy Light'), url('Kantumruy-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Kantumruy Bold'), url('Kantumruy-Bold.woff') format('woff');
+}

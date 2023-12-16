@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: local('Sofia Pro Extra Light Italic'), local('SofiaProExtraLight-Italic'),
+        url('subset-SofiaProExtraLight-Italic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Black'), local('SofiaPro-Black'),
+        url('subset-SofiaPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Italic'), local('SofiaPro-Italic'),
+        url('subset-SofiaPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Light Italic'), local('SofiaPro-LightItalic'),
+        url('subset-SofiaPro-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: local('Sofia Pro Ultra Light Italic'), local('SofiaPro-UltraLightItalic'),
+        url('subset-SofiaPro-UltraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Ultra';
+    src: local('Sofia Pro  Ultra Light'), local('SofiaPro-UltraLight'),
+        url('subset-SofiaPro-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Medium Italic'), local('SofiaPro-MediumItalic'),
+        url('subset-SofiaPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Medium'), local('SofiaPro-Medium'),
+        url('subset-SofiaPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Bold'), local('SofiaPro-Bold'),
+        url('subset-SofiaPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Bold Italic'), local('SofiaPro-BoldItalic'),
+        url('subset-SofiaPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Regular'), local('SofiaProRegular'),
+        url('subset-SofiaProRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Light'), local('SofiaPro-Light'),
+        url('subset-SofiaPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Extra';
+    src: local('Sofia Pro Extra Light'), local('SofiaPro-ExtraLight'),
+        url('subset-SofiaPro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: local('Sofia Pro Semi Bold'), local('SofiaPro-SemiBold'),
+        url('subset-SofiaPro-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: local('Sofia Pro Black Italic'), local('SofiaPro-BlackItalic'),
+        url('subset-SofiaPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Semi';
+    src: local('Sofia Pro Semi Bold Italic'), local('SofiaPro-SemiBoldItalic'),
+        url('subset-SofiaPro-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: url('ProximaSoft-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: local('Proxima Soft Semi Bold'), url('ProximaSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: local('Proxima Soft Bold'), url('ProximaSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Soft';
+    src: local('Proxima Soft Black'), url('ProximaSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
